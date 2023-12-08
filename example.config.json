@@ -1,24 +1,22 @@
 {
-    "powerThreshold": 50,
-    "aliasDevice": "Pump",
-    "emailSender": "youremail@gmail.com",
-    "passEmailSender": "password",
-    "emailReceiver": "youremail@gmail.com",
-    "logFileName": "Pump",
+    "powerThreshold": 20,
+    "aliasDevice": "Washer",
+    "logFileName": "Washer",
     "idleThreshold": 28800,
+    "slackToken": "xoxb-000000000000000000-000000000",
+    "slackChannel": "ChannelName",
     "repeatRunningAlertEvery": 1800,
-    "repeatIdleAlertEvery": 1800,
+    "repeatIdleAlertEvery": 180000000,
     "deviceRunningTimeThreshold": 360,
     "nbLineLogEmail": 10,
     "waitBetweenRead": 10,
 
-    "enableIdleAlert": "on",
-    "enableRunningAlert": "on",
+    "enableIdleAlert": "off",
+    "enableRunningAlert": "off",
     "enableStartAlert": "on",
     "enableStopAlert": "on",
 
-    "deviceIP": "192.168.0.110",
+    "deviceIP": "192.168.0.14",
 
     "apiSelection": "lan"   
 }
-
