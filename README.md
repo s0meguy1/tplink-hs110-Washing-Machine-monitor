@@ -3,8 +3,8 @@ Monitor a HS110 power so you can get notification on device start and stop.
 There is also an alert if the device is idle for a long period of time and if the device runs for too long.
 Usefull for a sump pump but could serve other needs.
 
-**Modified this to use slack instead of email, I have not updated the below on how to set it up, but have removed 
-variables in config.json for email, the slack variables are self explanitory
+**Modified this to use slack instead of email, I have not gone into detail about setup, but have removed 
+variables in config.json for email, the slack variables within are self explanitory. This can be installed as the original designer described below. I've added Slack to the NPM repos.
 
 Written in Node.js using https://github.com/plasticrake/tplink-smarthome-api
 
